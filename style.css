@@ -194,3 +194,43 @@ button {
     font-size: 18px;
     color: #E8EDFF;
 }
+.history {
+    width: 1200px;
+    height: 513.13px;
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.tytle {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.caption {
+    width: 82px;
+    height: 17px;
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #E8EDFF;
+}
+.his1, .his2{
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 56px;
+    font-weight: 500;
+    color: #E8EDFF;
+    line-height: 58.8px;
+}
+.his1{
+    margin-left: 120px;
+}
+.his2{
+    margin-top: 0px;
+    text-align: left;
+}
+.his_0 {
+    width: 90px;
+    height: auto;
+}
