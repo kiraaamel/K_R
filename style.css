@@ -794,3 +794,20 @@ footer {
     color: #011845;
     margin-left: 100px;
 }
+.end {
+    grid-row: 3;
+    margin-top: 50px;
+    width: 1200px;
+    height: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.st {
+    grid-column: 1;
+}
+.en {
+    position: absolute;
+    right: 220px;
+    grid-column: 2;
+    justify-items: right;
+}
