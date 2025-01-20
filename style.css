@@ -693,3 +693,20 @@ label {
     width: 205px;
     height: 30px;
 }
+.adress {
+    width: 263px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+}
+.contact3 {
+    width: 300px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.adres {
+    width: 22px;
+    height: 28px;
+}
