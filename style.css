@@ -298,6 +298,8 @@ h2 {
     margin-right: 120px;
 }
 .dishes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 150px;
     background-color: #496192;
     align-items: center;
@@ -305,7 +307,9 @@ h2 {
     left: 120px;
 }
 .about_dish {
-    margin-left: 100px;
+    transform: translateY(-90px);
+    grid-column: 1;
+    margin-left: 200px;
     width: 386px;
     height: 291px;
     display: flex;
@@ -343,4 +347,22 @@ h3 {
 .weight {
     font-weight: 400;
     font-size: 12px;
+}
+.dish {
+    transform: translateY(-50px);
+    grid-column: 2;
+    width: 480px;
+    height: 480px;
+    left: 617px;
+    border-radius: 1000px;
+}
+.strelka1 {
+    width: 7px;
+    height: 14px;
+    transform: translate(100px, 450px);
+}
+.strelka2 {
+    width: 21px;
+    height: 25px;
+    transform: translate(1320px, 450px);
 }
