@@ -720,26 +720,11 @@ label {
 .soc {
     margin-top: 70px;
 }
-.inst {
+.inst, .tg, .vk, .youtube {
     width: 60px;
     height: 60px;
 }
-.tg {
-    width: 60px;
-    height: 60px;
-}
-.vk {
-    width: 60px;
-    height: 60px;
-}
-.youtube {
-    width: 60px;
-    height: 60px;
-}
-.rect {
-    width: 44px;
-    height: 44px; 
-}
+
 footer {
     left: 0;
     bottom: 0;
