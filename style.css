@@ -284,3 +284,19 @@ h2 {
     right: 120px;
     top: 1260px
 }
+.osn_menu {
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.dishes {
+    margin-top: 150px;
+    background-color: #496192;
+    align-items: center;
+    height: 391px;
+    left: 120px;
+
+}
