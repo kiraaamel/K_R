@@ -514,3 +514,38 @@ h3 {
     height: 260px;
     object-fit: cover;
 }
+.disconts {
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.disk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+    background-color: #496192;
+    align-items: center;
+    height: 391px;
+    left: 120px;
+}
+.why {
+    margin-top: 0;
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.strel1 {
+    width: 7px;
+    height: 14px;
+    transform: translate(100px, 180px);
+}
+.strel2 {
+    width: 21px;
+    height: 25px;
+    transform: translate(620px, 190px);
+}
