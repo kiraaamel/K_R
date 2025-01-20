@@ -640,3 +640,56 @@ label {
     top: 5875px; 
     right: 120px;
 }
+.media {
+    display: flex;
+    flex-direction: row;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 722px;
+    margin-top: 350px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.photo_chink {
+    margin-top: 150px;
+    width: 550px;
+    height: 470px;
+}
+.chink {
+    width: 550px;
+    height: 470px;
+    object-fit: cover;
+}
+.questions {
+    margin-top: 135px;
+    margin-left: 220px;
+    width: 486px;
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact1 {
+    width: 183px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.contact2 {
+    width: 210px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.phone {
+    width: 28px;
+    height: 28px;
+}
+.email {
+    width: 205px;
+    height: 30px;
+}
