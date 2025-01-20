@@ -482,7 +482,6 @@ h3 {
 }
 .click {
     width: 180px;
-    height: 260px;
     display: flex;
     padding: 20px;
     gap: 10px;
@@ -509,4 +508,9 @@ h3 {
     height: 74px;
     display: flex;
     margin-left: 30px;
+}
+.klient {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
 }
