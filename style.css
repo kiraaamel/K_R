@@ -5,6 +5,11 @@
 		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf); 
 }
 @font-face {
+	font-family: 'Oceanic TRIAL Regular'; 
+	src: local('Oceanic TRIAL Regular'),
+		url(./Web2024/Web2024/v2/fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf); 
+}
+@font-face {
 	font-family: 'Gilroy'; 
 	src: local('Gilroy'),
 		url(./Web2024/Web2024/v2/fonts/Gilroy-2/Gilroy-Light.otf); 
@@ -298,5 +303,26 @@ h2 {
     align-items: center;
     height: 391px;
     left: 120px;
-
+}
+.about_dish {
+    margin-left: 100px;
+    width: 386px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-family: Oceanic TRIAL Regular;
+    color: #E8EDFF;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: left;
+}
+.sostav {
+    width: 386px;
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
 }
