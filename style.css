@@ -647,8 +647,8 @@ label {
 .contact {
     display: flex;
     flex-direction: column;
-    height: 722px;
-    margin-top: 350px;
+    height: 900px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -659,14 +659,14 @@ label {
 }
 .chink {
     width: 550px;
-    height: 470px;
+    height: 600px;
     object-fit: cover;
 }
 .questions {
-    margin-top: 135px;
+    margin-top: 115px;
     margin-left: 220px;
     width: 486px;
-    height: 466px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -709,4 +709,34 @@ label {
 .adres {
     width: 22px;
     height: 28px;
+}
+.contact4 {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.soc {
+    margin-top: 70px;
+}
+.inst {
+    width: 60px;
+    height: 60px;
+}
+.tg {
+    width: 60px;
+    height: 60px;
+}
+.vk {
+    width: 60px;
+    height: 60px;
+}
+.youtube {
+    width: 60px;
+    height: 60px;
+}
+.rect {
+    width: 44px;
+    height: 44px; 
 }
