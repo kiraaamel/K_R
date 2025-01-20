@@ -243,7 +243,7 @@ h2 {
     width: 1000px;
 }
 .his_2 {
-    width: 1000px;
+    width: 1200px;
 }
 .his_0 {
     width: 90px;
@@ -419,4 +419,56 @@ h3 {
     display: flex;
     flex-direction: column;
     transform: translate(1020px, -740px);
+}
+.feedback{
+    width: 1200px;
+    height: 524px;
+    margin-top: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+.gord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 665px;
+    height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+    margin-left: 45%;
+    margin-top: 150px;
+}
+.znachki {
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    align-items: center;
+    bottom: 0;
+    margin-right: 10px;
+    width: 630px;
+    height: 87px;
+    justify-content: right;
+}
+.strelka_1 {
+    width: 15px;
+    height: 15px;
+}
+.strelka_2 {
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
 }
