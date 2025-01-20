@@ -326,3 +326,21 @@ h3 {
     font-size: 18px;
     color: #E8EDFF;
 }
+.price_weight {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 386px;
+    height: 25px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-family: 'Gilroy';
+    color: #E8EDFF;
+}
+.price {
+    font-weight: 600;
+    font-size: 18px;
+}
+.weight {
+    font-weight: 400;
+    font-size: 12px;
+}
