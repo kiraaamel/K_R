@@ -149,14 +149,14 @@ h2 {
     font-size: 18px;
     color: #E8EDFF;
 }
-button {
+.start {
     width: 285px;
     height: 74px;
     padding: 20px;
     display: flex;
     gap : 10px;
     background-color: #E9663D;
-    color: #FFFFFF;
+    color: #E8EDFF;
     font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
@@ -243,4 +243,36 @@ button {
 .his_0 {
     width: 90px;
     height: auto;
+}
+.history_text {
+    width: 488px;
+    height: 195px;
+    left: 120px;
+    display: flex;
+    gap: 20px;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.t {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.know_more {
+    margin-top: 80px;
+    width: 285px;
+    height: 74px;
+    left: 120px;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    background-color: #011845;
+    color: #E8EDFF;
+    border: 1px solid #E8EDFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    align-items: center;
+    justify-content: center
 }
