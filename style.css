@@ -196,7 +196,7 @@ h2 {
 }
 .history {
     width: 1200px;
-    height: 513.13px;
+    height: 650px;
     margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
@@ -275,4 +275,12 @@ h2 {
     line-height: 33.6px;
     align-items: center;
     justify-content: center
+}
+.shef {
+    width: 647px;
+    height: 400px;
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    bottom: 0; /* Привязываем к нижнему краю */
+    right: 120px;
+    top: 1260px
 }
