@@ -204,6 +204,8 @@ button {
 .tytle {
     width: 1200px;
     height: 100px;
+}
+.zero-one{
     display: flex;
     align-items: center;
 }
@@ -225,10 +227,18 @@ button {
 }
 .his1{
     margin-left: 120px;
+    text-align: left;
 }
 .his2{
+    width: 100%;
     margin-top: 0px;
     text-align: left;
+}
+.his_1{
+    width: 1000px;
+}
+.his_2 {
+    width: 1000px;
 }
 .his_0 {
     width: 90px;
