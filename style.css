@@ -740,3 +740,57 @@ label {
     width: 44px;
     height: 44px; 
 }
+footer {
+    left: 0;
+    bottom: 0;
+    width: auto;
+    margin-top: 657px;
+    height: 637px;
+    background-color: #4164AB ;
+    padding-top: 60px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+    padding-left: 120px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.about_restaurant {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.r {
+    margin-top: 0;
+}
+.rest {
+    margin-left: 150px;
+    grid-column: 2;
+    width: 300px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rest1 {
+    margin-left: 200px;
+    grid-column: 3;
+    width: 400px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.name_rest {
+    grid-row: 2;
+    width: 1200px;
+    height: 250px;
+    opacity: 30%;
+}
+.nn {
+    text-align: center;
+    font-family: 'Oceanic TRIAL Medium';
+    font-size: 256px;
+    font-weight: 400;
+    color: #011845;
+    margin-left: 100px;
+}
