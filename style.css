@@ -209,7 +209,7 @@ h2 {
 .history {
     width: 1200px;
     height: 650px;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -312,13 +312,13 @@ h2 {
     position: absolute; 
     bottom: 0; 
     right: 120px;
-    top: 1260px
+    top: 1210px
 }
 .osn_menu {
     display: flex;
     flex-direction: column;
     height: 722px;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -397,7 +397,7 @@ h3 {
 
 .about_delivery {
     height: 700px;
-    margin-top: 150px;
+    margin-top: 220px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -449,7 +449,7 @@ h3 {
 .feedback{
     width: 1200px;
     height: 524px;
-    margin-top: 600px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
     display: flex;
@@ -546,7 +546,7 @@ h3 {
     display: flex;
     flex-direction: column;
     height: 722px;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -665,7 +665,7 @@ label {
     height: 470px;
     margin-left: 750px;
     position: absolute; 
-    top: 5875px; 
+    top: 5525px; 
     right: 120px;
 }
 .media {
@@ -676,7 +676,7 @@ label {
     display: flex;
     flex-direction: column;
     height: 900px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 120px;
     margin-right: 120px;
 }
@@ -754,10 +754,8 @@ label {
 }
 
 footer {
-    left: 0;
-    bottom: 0;
     width: auto;
-    margin-top: 657px;
+    margin-top: 200px;
     height: 637px;
     background-color: #4164AB ;
     padding-top: 60px;
