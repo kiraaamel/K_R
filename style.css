@@ -48,6 +48,13 @@ header {
     height: 59px;
     padding: 10px;
 }
+.hello {
+    font-family: 'Oceanic TRIAL Regular';
+    font-size: 28px;
+    color: #E8EDFF;
+    line-height: 39.2px;
+    font-weight: 400;   
+}
 h1 {
     font-family: 'Oceanic TRIAL Regular';
     font-size: 28px;
@@ -121,6 +128,10 @@ h1 {
     display: flex;
     justify-items: right;
 }
+button {
+    font-family: 'Gilroy';
+    font-size: 24px;
+}
 h2 {
     text-align: center;
     font-family: 'Oceanic TRIAL Medium';
@@ -169,7 +180,6 @@ h2 {
     gap : 10px;
     background-color: #E9663D;
     color: #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
@@ -298,7 +308,6 @@ h2 {
     background-color: #011845;
     color: #E8EDFF;
     border: 1px solid #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
@@ -316,7 +325,6 @@ h2 {
     background-color: #011845;
     color: #E8EDFF;
     border: 1px solid #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
@@ -328,7 +336,7 @@ h2 {
     position: absolute; 
     bottom: 0; 
     right: 120px;
-    top: 1210px
+    top: 1260px
 }
 .osn_menu {
     display: flex;
@@ -424,7 +432,7 @@ h3 {
     gap: 50px;
     flex-direction: column;
 }
-.opis {
+h4 {
     margin-bottom: 0px;
     font-family: 'Oceanic TRIAL Regular';
     color: #E8EDFF;
@@ -462,14 +470,12 @@ h3 {
     transform: translate(1020px, -740px);
 }
 .feedback{
-    width: 1200px;
     height: 524px;
     margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .text_cont {
@@ -509,13 +515,13 @@ h3 {
     height: 15px;
 }
 .strelka_2 {
-    margin-left: 30px;
+    margin-left: 35px;
     width: 25px;
     height: 25px;
 }
 .photos {
-    width: 1200px;
     height: 260px;
+    right: 120px;
     left: 120px;
     display: flex;
     flex-direction: row;
@@ -552,7 +558,7 @@ h3 {
     margin-left: 30px;
 }
 .klient {
-    width: 200px;
+    width: 180px;
     height: 260px;
     object-fit: cover;
     margin-left: 20px;
@@ -585,7 +591,7 @@ h3 {
 .strel1 {
     width: 7px;
     height: 14px;
-    transform: translate(100px, 180px);
+    transform: translate(100px, 190px);
 }
 .strel2 {
     width: 21px;
@@ -667,12 +673,10 @@ label {
     gap : 10px;
     background-color: #E9663D;
     color: #E8EDFF;
-    font-size: 24px;
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
     justify-content: center;
-    font-family: 'Gilroy';
     margin-left: 15px;
 }
 .dish3 {
@@ -680,8 +684,8 @@ label {
     height: 470px;
     margin-left: 750px;
     position: absolute; 
-    top: 5525px; 
-    right: 120px;
+    top: 5625px; 
+    right: 150px;
 }
 .media {
     display: flex;
