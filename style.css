@@ -16,6 +16,8 @@
 }
 body {
     background-color: #011845;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #011845;
@@ -45,13 +47,13 @@ header {
     width: 151px;
     height: 59px;
     padding: 10px;
-    display: flex;
 }
 h1 {
-    font-family: 'Oceanic TRIAL Medium';
+    font-family: 'Oceanic TRIAL Regular';
     font-size: 28px;
     color: #E8EDFF;
     line-height: 39.2px;
+    font-weight: 400;
 }
 .menu {
     display: flex;
@@ -65,7 +67,7 @@ h1 {
 .item {
     display: flex;
     height: 42px;
-    width: 121px;
+    width: 110px;
     padding: 10px;
 }
 .item1 {
@@ -94,8 +96,11 @@ h1 {
     height: 33.3px;
     width: 27px;
     right: 0;
-    position: absolute; 
+    position: relative; 
     top: 0; 
+}
+.banner {
+    height: auto;
 }
 .logo2 {
     text-align: center;
@@ -106,8 +111,8 @@ h1 {
 }
 .fish_restaurant {
     height: 100px;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 120px;
+    margin-right: 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -128,6 +133,7 @@ h2 {
     height: 580.98px;
     z-index: 1;
     margin-left: 40%;
+    filter: drop-shadow(0px 0px 250px rgb(255, 255, 255));
 }
 .info {
     position: relative;
@@ -174,9 +180,10 @@ h2 {
     display: flex;
     gap: 30px;
     flex-direction: column;
-    right: 0;
     position: absolute; 
-    top: 0;             
+    top: 0;   
+    right: 0; 
+    left: 1020px         
 }
 .info2 {
     width: 44px;
@@ -279,7 +286,25 @@ h2 {
     font-weight: 500;
     line-height: 33.6px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    filter: drop-shadow(-150px 0px 200px rgb(255, 255, 255));
+}
+.know_more1{
+    margin-top: 80px;
+    width: 285px;
+    height: 74px;
+    left: 120px;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    background-color: #011845;
+    color: #E8EDFF;
+    border: 1px solid #E8EDFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    align-items: center;
+    justify-content: center;
 }
 .shef {
     width: 647px;
@@ -412,6 +437,7 @@ h3 {
     height: 400px;
     margin-left: 470px;
     transform: translateY(-380px);
+    filter: drop-shadow(0px 0px 150px rgba(255, 255, 255, 0.261));
 }
 .three {
     width: 320px ;
@@ -489,6 +515,7 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: #E9663D;
+    filter: drop-shadow(-150px 0px 200px rgba(255, 255, 255, 0.672));
 }
 .click_info {
     width: 132px;
@@ -616,6 +643,7 @@ label {
     margin-bottom: 20px;
 }
 .book{
+    filter: drop-shadow(-350px 200px 150px rgba(255, 255, 255, 0.6));
     margin-top: 30px;
     width: 590px;
     height: 74px;
