@@ -465,6 +465,7 @@ h4 {
 .three {
     width: 320px ;
     height: 251px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     transform: translate(1020px, -740px);
