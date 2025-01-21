@@ -376,7 +376,7 @@ h3 {
     width: 386px;
     height: 25px;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-family: 'Gilroy';
     color: #E8EDFF;
 }
@@ -399,18 +399,17 @@ h3 {
 .strelka1 {
     width: 7px;
     height: 14px;
-    transform: translate(100px, 450px);
+    transform: translate(100px, 180px);
 }
 .strelka2 {
     width: 21px;
     height: 25px;
-    transform: translate(1120px, 450px);
+    transform: translate(620px, 180px);
 }
 .go_menu {
     display: flex;
     justify-content: center;
 }
-
 .about_delivery {
     height: 700px;
     margin-top: 220px;
