@@ -119,7 +119,7 @@ h1 {
 .fish_restaurant {
     height: 100px;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,7 +194,7 @@ h2 {
     position: absolute; 
     top: 0;   
     right: 0; 
-    left: 1020px         
+    left: 950px         
 }
 .info2 {
     width: 44px;
@@ -335,7 +335,7 @@ h2 {
     height: 400px;
     position: absolute; 
     bottom: 0; 
-    right: 120px;
+    right: 200px;
     top: 1260px
 }
 .osn_menu {
@@ -372,7 +372,15 @@ h3 {
     text-align: left;
 }
 .sostav {
+    margin-top: 0;
     height: 88px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E8EDFF;
+}
+.sostav1 {
+    margin-top: 20px;
     font-family: 'Gilroy';
     font-weight: 400;
     font-size: 18px;
@@ -382,9 +390,9 @@ h3 {
     display: grid;
     grid-template-columns: auto auto;
     width: 386px;
-    height: 25px;
+    height: 15px;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-family: 'Gilroy';
     color: #E8EDFF;
 }
@@ -456,7 +464,7 @@ h4 {
     flex-direction: column;
 }
 .deliv {
-    width: 500px;
+    width: 550px;
     height: 400px;
     margin-left: 470px;
     transform: translateY(-380px);
@@ -473,8 +481,8 @@ h4 {
 .feedback{
     height: 524px;
     margin-top: 200px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -686,7 +694,7 @@ label {
     margin-left: 750px;
     position: absolute; 
     top: 5625px; 
-    right: 150px;
+    right: 250px;
 }
 .media {
     display: flex;
