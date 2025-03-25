@@ -574,7 +574,7 @@ h4 {
     display: flex;
     margin-left: 30px;
 }
-.klient {
+.klient, .klient2, .klient3, .klient4, .klient5 {
     width: 180px;
     height: 260px;
     object-fit: cover;
@@ -867,6 +867,7 @@ footer {
         margin: 0 auto;
         padding-top: 10px;
         padding-bottom: 10px ;
+        margin-left: 100px;
         width: 740px;
         height: 79px;
     }
@@ -912,10 +913,10 @@ footer {
     margin-left: 142px;
 }
 .shrimp {
-    width: 150px;
-    height: 400px;
+    width: 15%;
+    height: auto;
     margin-top: 6px;
-    margin-left: 300px;
+    margin-left: 310px;
     filter: drop-shadow(0px 0px 150px rgb(255, 255, 255));
 }
 .logo2 {
@@ -983,6 +984,9 @@ h2 {
     font-size: 36px;
     line-height: 30px;
 }
+.his_2 {
+    width: auto;
+}
 .his_1 {
     width: 740px;
 }
@@ -1006,12 +1010,127 @@ h2 {
     margin-top: 0px;
 }
 .shef {
-    width: 420px;
-    height: 280px;
+    width: 400px;
+    height: auto;
     left: 500px;
     top: 950px;
 }
+.osn_menu {
+    width: 740px;
+    height: 600px;
+    left: 142px;
 }
+.dishes {
+    width: 740px;
+    height: 360px;
+    left: 142px;
+    margin-top: 100px;
+    align-items:normal;
+}
+.about_dish {
+    width: 231px;
+    height: 268px;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+.price_weight {
+    width: 231px;
+    height: auto;
+}
+h3 {
+    font-size: 26px;
+}
+.sostav {
+    font-size: 16px;
+}
+.price {
+    font-size: 16px;
+}
+.weight {
+    font-size: 12px;
+}
+.strelka1 {
+    transform: translate(20px, 180px);
+}
+.dish {
+    width: 100%;
+    height: auto;
+    margin-right: 40px;
+    transform: translate(-30px, -35px);
+}
+.strelka2 {
+    transform: translate(345px, 172px);
+}
+.go_menu {
+    height: 50px;
+}
+.know_more1 {
+    margin-top: 50px;
+    font-size: 20px;
+    height: 60px;
+}
+.pluses {
+    margin-top: 20px;
+}
+.one-two {
+    margin-top: 450px;
+    width: 320px;
+    margin-left: 30px;
+}
+.deliv {
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+    transform: translate(10px, -400px);
+}
+.three {
+    transform: translate(470px, -340px);
+    margin-left: 0;
+}
+.min, h4 {
+    font-size: 26px;
+}
+.sostav1 {
+    font-size: 16px;
+}
+.about_delivery{
+    height: 1100px;
+}
+.n2 {
+    margin-top: 30px;
+}
+.text_cont {
+    width: 740px;
+    height: 250px;
+}
+.photos {
+    width: 740px;
+}
+.klient4, .klient5 {
+    display: none;
+}
+.gord {
+    margin-top: 100px;
+    margin-left: 30%;
+}
+.znachki {
+    margin-top: 130px;
+}
+.feedback {
+    margin-left: 142px;
+    margin-top: 0px;
+}
+.strel1 {
+    transform: translate(25px, 190px);
+}
+.strel2 {
+    transform: translate(360px, 190px);
+}
+.booking {
+    margin-top: 0;
+}
+}
+
 
 @media (max-width: 320px){
     header {
@@ -1084,4 +1203,5 @@ h2 {
     margin-top: 0;
     width: auto;
 }
+
 }
