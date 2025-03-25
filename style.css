@@ -863,13 +863,16 @@ footer {
 }
 
 @media (max-width: 1024px) and (min-width: 321px){
+    body {
+        overflow-x: hidden;
+    }
     header {
         margin: 0 auto;
         padding-top: 10px;
         padding-bottom: 10px ;
-        margin-left: 100px;
-        width: 740px;
+        width: 100%;
         height: 79px;
+        padding-left: 120px;
     }
     .field {
         width: 720px;
@@ -910,7 +913,7 @@ footer {
     width: 740px;
     height: 469px;
     margin-top: 97px;
-    margin-left: 142px;
+    margin-left: 10%;
 }
 .shrimp {
     width: 15%;
@@ -971,8 +974,10 @@ h2 {
     font-size: 16px;
 }
 .history {
+    margin-right: 0;
     width: 740px;
     height: 445px;
+    margin-left: 10%;
 }
 .zero-one1 {
     margin-top: 0px;
@@ -983,6 +988,7 @@ h2 {
 .his1, .his2 {
     font-size: 36px;
     line-height: 30px;
+    margin-left: 0;
 }
 .his_2 {
     width: auto;
@@ -1019,6 +1025,8 @@ h2 {
     width: 740px;
     height: 600px;
     left: 142px;
+    margin-right: 0;
+    margin-left: 10%;
 }
 .dishes {
     width: 740px;
@@ -1056,7 +1064,10 @@ h3 {
     width: 100%;
     height: auto;
     margin-right: 40px;
-    transform: translate(-30px, -35px);
+    transform: translate(-6%, -35px);
+}
+.media {
+    gap: 50px
 }
 .strelka2 {
     transform: translate(345px, 172px);
@@ -1094,7 +1105,10 @@ h3 {
     font-size: 16px;
 }
 .about_delivery{
+    width: 740px;
     height: 1100px;
+    margin-right: 0;
+    margin-left: 10%;
 }
 .n2 {
     margin-top: 30px;
@@ -1117,20 +1131,23 @@ h3 {
     margin-top: 130px;
 }
 .feedback {
-    margin-left: 142px;
+    margin-left: 10%;
     margin-top: 0px;
+    margin-right: 0;
 }
 .strel1 {
     transform: translate(25px, 190px);
 }
 .strel2 {
-    transform: translate(360px, 190px);
+    transform: translate(370px, 190px);
 }
 .booking {
     margin-top: 0;
+    margin-right: 0;
+    margin-left: 10%;
 }
 .dish3 {
-    width: 740px;
+    width: 100%;
     height: auto;
     transform: translate(-480px, -6500px);
     position: relative;
@@ -1145,6 +1162,7 @@ fieldset {
 }
 .contact {
     margin-top: 700px;
+    margin-left: 10%;
 }
 .one {
     width: 355px;
@@ -1157,6 +1175,11 @@ fieldset {
 }
 label {
     font-size: 16px;
+}
+.disconts {
+    margin-right: 0px;
+    width: 800px;
+    margin-left: 10%;
 }
 .book {
     width: 740px;
@@ -1177,7 +1200,7 @@ label {
 }
 footer {
     margin-top: 0;
-    width: 740px;
+    width: 100%;
     height: 506px;
     bottom: 0;
 }
@@ -1187,9 +1210,10 @@ footer {
 .rest, .rest1 {
     gap: 8px;
     margin-left: 50px;
+    width: auto;
 }
 .name_rest {
-    width: 740px;
+    width: 100%;
 }
 .nn {
     height: auto;
@@ -1204,8 +1228,36 @@ footer {
 .end {
     width: 740px;
     margin-top: 0;
+    grid-template-columns: 370px 370px;
 }
+.en {
+    left: 20%;
+    position: relative;
 }
+.tytle {
+    width: 740px;
+}
+/* ГПТ */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0 15px; /* Добавляем отступы по краям */
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 320px){
