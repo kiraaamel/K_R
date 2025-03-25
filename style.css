@@ -91,7 +91,15 @@ h1 {
     font-weight: 400;
 }
 
-.basket {
+/* .basket {
+    display: flex;
+    justify-content: right;
+    height: 56px;
+    width: 56px;
+    padding: 10px;
+    gap: 20px;
+} */
+.mimi {
     display: flex;
     justify-content: right;
     height: 56px;
@@ -850,18 +858,69 @@ footer {
     grid-column: 2;
     justify-items: right;
 }
+.burger-icon {
+    display: none;
+}
 
-@media (max-wigth: 1024px){
- header {
-    margin-left: 142px;
-    margin-right: 142px;
-    padding-top: 10px;
-    padding-bottom: 10px ;
-    width: 740px;
-    height: 79px;
+@media (max-width: 1024px){
+    header {
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px ;
+        width: 740px;
+        height: 79px;
+    }
+    .field {
+        width: 720px;
+        gap: 500px;
+    }
+ .menu {
+    display: none;
  }   
- .menu > .item {
-   display: none;
+ .mimi {
+    display: none;
+ } 
+ .logo {
+    width: 151px;
+    height: 56px;
+    padding: 10px;
+    gap: 22px
  }
-    
+ .hello {
+    width: 131px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 28px;
+ }
+ .burger-icon {
+    display: block;
+    width: 23px;
+    margin-top: 30px;
+    margin-left: 100px;
+    gap: 8px;
+    display: flex;
+    justify-content: right;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    gap: 20px;
+}
+.banner {
+    width: 740px;
+    height: 469px;
+    margin-top: 97px;
+    margin-left: 142px;
+}
+.shrimp {
+    width: 150px;
+    height: 400px;
+    margin-top: 166px;
+    margin-left: 419px
+}
+.logo2 {
+    font-size: 158px;
+}
+h2 {
+    font-size: 52px;
+}
 }
