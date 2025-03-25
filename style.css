@@ -862,7 +862,7 @@ footer {
     display: none;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) and (min-width: 321px){
     header {
         margin: 0 auto;
         padding-top: 10px;
@@ -914,13 +914,174 @@ footer {
 .shrimp {
     width: 150px;
     height: 400px;
-    margin-top: 166px;
-    margin-left: 419px
+    margin-top: 6px;
+    margin-left: 300px;
+    filter: drop-shadow(0px 0px 150px rgb(255, 255, 255));
 }
 .logo2 {
     font-size: 158px;
 }
 h2 {
     font-size: 52px;
+}
+.fish_restaurant {
+    gap: 190px;
+    margin-left: 40px;
+}
+.info {
+    width: 740px;
+    height: 182px;
+    margin-top: 35px;
+    margin-left: 12px;
+    justify-content: space-between;
+}
+.info1 {
+    width: 240px;
+    height: 182px;
+    gap: 30px;
+}
+.info_1 {
+    width: 240px;
+    height: 95px;
+    font-size: 16px;
+}
+.start {
+    width: 240px;
+    height: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 10px;
+    font-size: 18px;
+}
+.fish_and_delivery {
+    left: 500px;
+    width: 240px;
+    height: 163px;
+    gap: 30px;
+}
+.fish, .delivery {
+    width: 240px;
+    height: 76px;
+    gap: 10px;
+}
+.info_2 {
+    font-size: 16px;
+}
+.history {
+    width: 740px;
+    height: 445px;
+}
+.zero-one1 {
+    margin-top: 0px;
+}
+.caption {
+    font-size: 10px;
+}
+.his1, .his2 {
+    font-size: 36px;
+    line-height: 30px;
+}
+.his_1 {
+    width: 740px;
+}
+.history_text {
+    width: 300px;
+    height: 280px;
+    margin-top: 50px;
+    gap: 0px;
+}
+.part1, .part2 {
+    width: 300px;
+    height: auto;
+}
+.t {
+    font-size: 16px;
+}
+.know_more {
+    width: 285px;
+    height: 57px;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.shef {
+    width: 420px;
+    height: 280px;
+    left: 500px;
+    top: 950px;
+}
+}
+
+@media (max-width: 320px){
+    header {
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px ;
+        width: 290px;
+        height: 68px;
+    }
+    .field {
+        width: 290px;
+        gap: 120px;
+    }
+ .menu {
+    display: none;
+ }   
+ .mimi {
+    display: none;
+ } 
+ .logo {
+    width: 94px;
+    height: 28px;
+    padding: 10px;
+    gap: 22px
+ }
+ .hello {
+    width: 94px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .burger-icon {
+    width: 36px;
+    margin-top: 36px;
+    margin-left: 100px;
+    gap: 20px;
+    display: flex;
+    justify-content: right;
+}
+.banner {
+    width: 290px;
+    height: 390px;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.shrimp {
+    width: 70px;
+    height: 190px;
+    transform: rotate(-40deg)
+}
+.logo2 {
+    font-size: 62px;
+}
+h2 {
+    font-size: 42px;
+}
+.fish_restaurant{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+
+}
+.fish {
+    grid-row: 1;
+    margin-bottom: 0;
+    width: auto;
+}
+.restaurant {
+    grid-row: 2;
+    margin-top: 0;
+    width: auto;
 }
 }
