@@ -281,10 +281,10 @@ h2 {
     text-align: left;
 }
 .his_1{
-    width: 1000px;
+    width: 100%;
 }
 .his_2 {
-    width: 1200px;
+    width: 100%;
 }
 .his_0 {
     width: 90px;
@@ -353,6 +353,7 @@ h2 {
     margin-top: 120px;
     margin-left: 120px;
     margin-right: 120px;
+    width: 100%;
 }
 .dishes {
     display: grid;
@@ -862,22 +863,21 @@ footer {
     display: none;
 }
 
-@media (max-width: 1024px) and (min-width: 321px){
-    body {
-        overflow-x: hidden;
-    }
-    header {
-        margin: 0 auto;
-        padding-top: 10px;
-        padding-bottom: 10px ;
-        width: 100%;
-        height: 79px;
-        padding-left: 120px;
-    }
-    .field {
-        width: 720px;
-        gap: 500px;
-    }
+@media (max-width: 1024px) and (min-width: 400px){
+ body {
+    overflow-x: hidden;
+ }
+ header {
+    margin: 0 auto;
+    padding: 10px 7%;
+    width: 100%;
+    height: 79px;
+    padding-left: 7%;
+ }
+ .field {
+    width: 720px;
+    gap: 75%;
+ }
  .menu {
     display: none;
  }   
@@ -898,26 +898,29 @@ footer {
  }
  .burger-icon {
     display: block;
-    width: 23px;
-    margin-top: 30px;
-    margin-left: 100px;
+    width: 46px;
+    height: auto;
+    margin-top: 31px;
+    margin-left: 10%;
     gap: 8px;
     display: flex;
     justify-content: right;
-    height: 30px;
-    width: 30px;
     padding: 10px;
     gap: 20px;
+}
+.disk {
+    width: 90%;
 }
 .banner {
     width: 740px;
     height: 469px;
     margin-top: 97px;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .shrimp {
     width: 15%;
     height: auto;
+    min-width: 150px;
     margin-top: 6px;
     margin-left: 310px;
     filter: drop-shadow(0px 0px 150px rgb(255, 255, 255));
@@ -977,7 +980,7 @@ h2 {
     margin-right: 0;
     width: 740px;
     height: 445px;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .zero-one1 {
     margin-top: 0px;
@@ -986,9 +989,10 @@ h2 {
     font-size: 10px;
 }
 .his1, .his2 {
-    font-size: 36px;
+    font-size: 3.5vw;
     line-height: 30px;
     margin-left: 0;
+    width: 90%;
 }
 .his_2 {
     width: auto;
@@ -1018,24 +1022,27 @@ h2 {
 .shef {
     width: 400px;
     height: auto;
-    left: 500px;
+    left: 450px;
     top: 950px;
 }
 .osn_menu {
-    width: 740px;
+    width: 100%;
+    min-width: 800px;
     height: 600px;
     left: 142px;
     margin-right: 0;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .dishes {
-    width: 740px;
+    width: 90%;
     height: 360px;
     left: 142px;
     margin-top: 100px;
     align-items:normal;
+    grid-template-columns: 1fr 1fr;
 }
 .about_dish {
+    grid-column: 1;
     width: 231px;
     height: 268px;
     margin-left: 75px;
@@ -1061,16 +1068,17 @@ h3 {
     transform: translate(20px, 180px);
 }
 .dish {
+    grid-column: 2;
     width: 100%;
     height: auto;
     margin-right: 40px;
-    transform: translate(-6%, -35px);
+    transform: translate(-8%, -15px);
 }
 .media {
     gap: 50px
 }
 .strelka2 {
-    transform: translate(345px, 172px);
+    transform: translate(415px, 182px);
 }
 .go_menu {
     height: 50px;
@@ -1091,11 +1099,11 @@ h3 {
 .deliv {
     width: 700px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 0;
     transform: translate(10px, -400px);
 }
 .three {
-    transform: translate(470px, -340px);
+    transform: translate(430px, -340px);
     margin-left: 0;
 }
 .min, h4 {
@@ -1108,7 +1116,7 @@ h3 {
     width: 740px;
     height: 1100px;
     margin-right: 0;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .n2 {
     margin-top: 30px;
@@ -1131,7 +1139,7 @@ h3 {
     margin-top: 130px;
 }
 .feedback {
-    margin-left: 10%;
+    margin-left: 7%;
     margin-top: 0px;
     margin-right: 0;
 }
@@ -1139,39 +1147,45 @@ h3 {
     transform: translate(25px, 190px);
 }
 .strel2 {
-    transform: translate(370px, 190px);
+    transform: translate(330px, 190px);
 }
 .booking {
     margin-top: 0;
     margin-right: 0;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .dish3 {
-    width: 100%;
+    width: 90%;
+    min-width: 700px;
     height: auto;
-    transform: translate(-480px, -6500px);
+    transform: translate(-500px, -6500px);
     position: relative;
 }
 .to_book {
     height: 1000px;
 }
 fieldset {
-    margin-top: 650px;
-    width: 740px;
+    margin-top: 700px;
+    width: 100%;
     margin-left: 10px;
 }
 .contact {
     margin-top: 700px;
-    margin-left: 10%;
+    margin-left: 7%;
+    margin-right: auto;
+    padding: 0 20px;
 }
 .one {
-    width: 355px;
+    width: 50%;
+    min-width: 340px
 }
 .two {
-    width: 233px;
+    width: 33%;
+    min-width: 223px
 }
 .threee {
-    width: 740px;
+    width: 100%;
+    min-width: 700px;
 }
 label {
     font-size: 16px;
@@ -1179,16 +1193,18 @@ label {
 .disconts {
     margin-right: 0px;
     width: 800px;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .book {
-    width: 740px;
+    width: 89%;
+    min-width: 700px;
     font-size: 18px;
 }
 .chink {
     width: 365px;
     height: 400px;
     object-fit: cover;
+    margin-left: 5%;
 }
 .questions {
     margin-left: 0;
@@ -1201,11 +1217,14 @@ label {
 footer {
     margin-top: 0;
     width: 100%;
-    height: 506px;
+    min-width: 850px;
+    height: auto;
     bottom: 0;
+    padding-left: 0;
+    padding-left: 50px;
 }
 .about_restaurant {
-    grid-template-columns: 246px 246px 246px;
+    grid-template-columns: 0.6fr 1fr 1fr;
 }
 .rest, .rest1 {
     gap: 8px;
@@ -1217,35 +1236,36 @@ footer {
 }
 .nn {
     height: auto;
-    font-size: 158px;
+    font-size: 19vw;
     margin-left: 0;
     text-align: center;
 }
 .why {
     height: auto;
+    width: 100%;
     font-size: 16px;
 }
 .end {
     width: 740px;
-    margin-top: 0;
-    grid-template-columns: 370px 370px;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
 }
 .en {
     left: 20%;
     position: relative;
+    justify-items: left;
 }
 .tytle {
-    width: 740px;
+    width: 90%;
 }
 /* ГПТ */
 * {
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 body {
     overflow-x: hidden;
-    padding: 0 15px; /* Добавляем отступы по краям */
+    padding: 0 0; /* Добавляем отступы по краям */
 }
 
 }
@@ -1260,17 +1280,16 @@ body {
 
 
 
-@media (max-width: 320px){
+@media (max-width: 400px){
     header {
         margin: 0 auto;
-        padding-top: 10px;
-        padding-bottom: 10px ;
-        width: 290px;
+        padding: 10px 7%;
+        width: 100%;
+        max-width: 1024px;
         height: 68px;
     }
     .field {
-        width: 290px;
-        gap: 120px;
+        gap: 30px;
     }
  .menu {
     display: none;
