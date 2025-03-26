@@ -1022,7 +1022,7 @@ h2 {
 .shef {
     width: 400px;
     height: auto;
-    left: 450px;
+    left: 400px;
     top: 950px;
 }
 .osn_menu {
@@ -1070,15 +1070,17 @@ h3 {
 .dish {
     grid-column: 2;
     width: 100%;
+    min-width: 200px;
     height: auto;
     margin-right: 40px;
-    transform: translate(-8%, -15px);
+    transform: translate(-8%, -13%);
 }
 .media {
     gap: 50px
 }
 .strelka2 {
-    transform: translate(415px, 182px);
+    transform: translate(42vw, 182px);
+    position: relative;
 }
 .go_menu {
     height: 50px;
